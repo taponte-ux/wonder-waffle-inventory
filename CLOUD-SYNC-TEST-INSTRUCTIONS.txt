@@ -1,0 +1,10 @@
+Wonder Waffle v0.5.6 CLOUD SYNC TEST — testing branch only
+
+1. Extract this ZIP. Upload src/main.tsx, src/style.css, and package.json to the same relative paths on v0.5.5-testing (do not upload to production).
+2. Wait for the GitHub Actions validation build. If it fails, stop and send the error.
+3. Download the new build artifact and update the separate preview repository, as previously done.
+4. Sign in with an approved family Google account. The status should say Connected. If it shows Sync error, do not use this build for operations.
+5. Test adding stock on one device and confirm the other device sees the change after 10 seconds. Test removal, history, and unauthorized sign-in.
+6. Do NOT publish to production until all tests pass. Existing local inventory is not migrated or overwritten by this build.
+
+Note: The package was prepared from the supplied source project. The local npm install/build could not finish in this environment, so GitHub Actions build verification is required.
