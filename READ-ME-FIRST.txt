@@ -1,0 +1,3 @@
+v0.5.5 TEST BRANCH ONLY. Upload extracted file contents to v0.5.5-testing, NOT main.
+This adds Google-based activity attribution and local per-account settings. Owner-approved profile linking and cloud sync are NOT implemented.
+Workflow v055-test.yml checks build only and does NOT deploy.
