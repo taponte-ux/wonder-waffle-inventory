@@ -1,0 +1,9 @@
+Wonder Waffle v0.5.7 — family access gate and cloud status labels
+
+Upload src/main.tsx to the v0.5.5-testing branch only.
+This patch intentionally does not change vite.config.ts, dependencies, or Supabase data.
+
+After GitHub Actions build passes, verify an unapproved Google account sees Access Denied and cannot see the dashboard; verify Tim and Pamela can still view and adjust shared inventory.
+IMPORTANT: This testing branch currently has a production base path. To publish a preview artifact at the separate preview repository, the testing build must use /wonder-waffle-inventory-preview/ instead; do not deploy this build to the live website while testing.
+
+Only after tests pass, merge via PR into main and verify production build and live website.
