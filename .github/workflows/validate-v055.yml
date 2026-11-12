@@ -32,3 +32,10 @@ jobs:
         env:
           VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
           VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
+
+      - name: Save website build for testing
+        uses: actions/upload-artifact@v4
+        with:
+          name: wonder-waffle-v055-preview
+          path: dist/
+          if-no-files-found: error
