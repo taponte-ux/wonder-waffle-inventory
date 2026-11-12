@@ -1,0 +1,23 @@
+WONDER WAFFLE INVENTORY — GITHUB PAGES BETA
+
+This package prepares a SEPARATE GitHub repository named wonder-waffle-inventory.
+Nothing has been published or changed in your other projects.
+
+IMPORTANT: The website can be publicly visited. Google sign-in is not yet
+an approved-family authorization system, and inventory remains local to each browser.
+Do not enter sensitive or real business data yet.
+
+1. Create a NEW public repository named wonder-waffle-inventory in your GitHub account.
+2. Upload the project files, including the .github folder, to that repository.
+   Do NOT upload .env.local or node_modules.
+3. In repository Settings > Secrets and variables > Actions > Variables, add:
+   VITE_SUPABASE_URL = https://frvogsytvyzikggjeugj.supabase.co
+   VITE_SUPABASE_PUBLISHABLE_KEY = your existing sb_publishable_... key
+4. In repository Settings > Pages, set Source to GitHub Actions.
+5. In Supabase > Authentication > URL Configuration, add the Redirect URL:
+   https://drkrook.github.io/wonder-waffle-inventory/
+   Keep the existing localhost redirect for development.
+6. In repository Actions, run the Deploy Wonder Waffle Inventory workflow if needed.
+7. Visit https://drkrook.github.io/wonder-waffle-inventory/
+
+This is a deployment-ready source package, not an already deployed website.
